@@ -8,4 +8,4 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
 
-    calc(16px +(24-16)*(100vw-300px)/(800-400));
+    calc(16px +(24-16)*((100vw-300px)/(800-400)));

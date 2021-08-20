@@ -9,38 +9,10 @@ a{
     color:#4b5866;
     transition: color 1.5s ease;
 }
-
-@media(max-width:768px){
-    .main-footer{
-        background-image: radial-gradient(at top,#335175,#111924);
-        display:flex;
-    }
-    .main-nav{
-        padding-top:12px;
-    }
-    
+.main-footer{
+    background-image: radial-gradient(at top,#335175,#111924);
+    display:flex;
 }
-
-@media(max-width: 576px){
-    .top-header{
-        display:none;
-    }
-    
-    .main-footer{
-        background-image:radial-gradient(at left,#335175,#111924);
-        display:flex;
-        flex-direction: column;
-    }
-    .main-f-div{
-        flex-direction: column;
-    }
-    .news-list-item{
-        display:flex;
-        justify-content: space-between;
-        margin: 15px 0;
-    }
-}
-@media(max-width: 992){}
 
 .main-header{
     background-color:#f0f1f3;
@@ -61,14 +33,9 @@ a{
 .footer{
     color:#4b5866;
 }
-
 .date-div{
     color:whitesmoke;
-    width:65px;
-    height:65px;
-    padding-left: 16px;
     border-radius: 5px;
-    
 }
 .date{
     padding-left:5px;
@@ -93,4 +60,66 @@ a{
 }
 a:hover{
     color:yellow;
+}
+@media(max-width: 992px){
+    .date-div{
+        width:75px;
+        height:75px;
+        font-size: 25px;
+    }
+    .news-list-item{
+        padding:16px;
+    }
+    .date, .month{
+        margin: 9px;
+        line-height: 1;
+    }
+
+}
+
+@media(max-width:768px){
+    .main-nav{
+        padding-top:12px;
+    }
+    .footer h3{
+        font-size:small;
+    }
+    .footer{
+        font-size: small;
+    }
+    /* .news-list-item{
+        display:flex;
+    } */
+    .date-div{
+        width: 45px;
+        height:45px;
+        padding: 10px;
+    }
+    .date, .month{
+        margin: 0;
+        line-height: 1;
+    }
+}
+
+@media(max-width: 576px){
+    .top-header{
+        display:none;
+    }       
+    .logo{
+        display:flex;
+        justify-content: center;
+    }
+    .main-footer{
+        background-image:radial-gradient(at left,#335175,#111924);
+        display:flex;
+        flex-direction: column;
+    }
+    .main-f-div{
+        flex-direction: column;
+    }
+    .news-list-item{
+        display:flex;
+        justify-content: space-between;
+        margin: 15px 0;
+    }
 }
