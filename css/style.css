@@ -1,0 +1,96 @@
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+    color:#4b5866;
+    transition: color 1.5s ease;
+}
+
+@media(max-width:768px){
+    .main-footer{
+        background-image: radial-gradient(at top,#335175,#111924);
+        display:flex;
+    }
+    .main-nav{
+        padding-top:12px;
+    }
+    
+}
+
+@media(max-width: 576px){
+    .top-header{
+        display:none;
+    }
+    
+    .main-footer{
+        background-image:radial-gradient(at left,#335175,#111924);
+        display:flex;
+        flex-direction: column;
+    }
+    .main-f-div{
+        flex-direction: column;
+    }
+    .news-list-item{
+        display:flex;
+        justify-content: space-between;
+        margin: 15px 0;
+    }
+}
+@media(max-width: 992){}
+
+.main-header{
+    background-color:#f0f1f3;
+}
+.top-header{
+    background-color:#0b1016;
+}
+
+.main{
+    background-color: #f0f1f3;
+}
+.footer h2{
+    color: whitesmoke;
+}
+.footer a{
+    color: whitesmoke;
+}
+.footer{
+    color:#4b5866;
+}
+
+.date-div{
+    color:whitesmoke;
+    width:65px;
+    height:65px;
+    padding-left: 16px;
+    border-radius: 5px;
+    
+}
+.date{
+    padding-left:5px;
+}
+.date-one{
+    background-color:#be8544;
+}
+.date-two{
+    background-color:#be6342;
+}
+.date-three{
+    background-color: #bb435c;
+}
+.colophon{
+    background-color:#0b1016;
+}
+.button-b{
+    transition:background-color 1.5s ease;
+}
+.button-b:hover{
+    background-color:#fc8a01;
+}
+a:hover{
+    color:yellow;
+}
